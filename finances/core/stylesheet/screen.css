@@ -1,0 +1,315 @@
+/*!!!!!!!!!!! QuickMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+
+.qmmc .qmdivider {
+	display: block;
+	font-size: 1px;
+	border-width: 0px;
+	border-style: solid;
+}
+
+.qmmc .qmdividery {
+	float: left;
+	width: 0px;
+}
+
+.qmmc .qmtitle {
+	display: block;
+	cursor: default;
+	white-space: nowrap;
+}
+
+.qmclear  {
+	font-size: 1px;
+	height: 0px;
+	width: 0px;
+	clear: left;
+	line-height: 0px;
+	display: block;
+	float: none !important;
+}
+
+.qmmc  {
+	position: relative;
+	zoom: 1;
+}
+
+.qmmc a, .qmmc li  {
+	float: left;
+	display: block;
+	white-space: nowrap;
+}
+
+.qmmc div a, .qmmc ul a, .qmmc ul li  {
+	float: none;
+}
+
+.qmsh div a  {
+	float: left;
+}
+
+.qmmc div {
+	visibility: hidden;
+	position: absolute;
+}
+
+.qmmc ul  {
+	left: -10000px;
+	position: absolute;
+}
+
+.qmmc, .qmmc ul  {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.qmmc li a  {
+	float: none}
+
+.qmmc li {
+	position: relative;
+}
+
+.qmmc ul  {
+	z-index: 10;
+}
+
+.qmmc ul ul  {
+	z-index: 20;
+}
+
+.qmmc ul ul ul  {
+	z-index: 30;
+}
+
+.qmmc ul ul ul ul  {
+	z-index: 40;
+}
+
+.qmmc ul ul ul ul ul  {
+	z-index: 50;
+}
+
+li:hover > ul {
+	left: auto;
+}
+
+#qm0 ul  {
+	top: 100%;
+}
+
+#qm0 ul li:hover > ul {
+	top: 0px;
+	left: 100%;
+}
+
+
+
+
+/*!!!!!!!!!!! QuickMenu Styles !!!!!!!!!!!*/
+
+
+
+/* QuickMenu 0 */
+
+/*"""""""" (MAIN) Container""""""""*/	
+#qm0 {	
+	background-color: transparent;
+	display:  inline-block;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+
+/*"""""""" (MAIN) Items""""""""*/	
+#qm0 a {	
+	padding: 5px 60px 3px 0px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(102, 102, 102);
+	font-family: Arial;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	border-width: 0px 0px 8px;
+	border-style: solid;
+	border-color: rgb(102, 102, 102);
+}
+
+
+/*"""""""" (MAIN) Hover State""""""""*/	
+#qm0 a:hover {	
+	/*background-color: rgb(255, 255, 255);*/
+	color: rgb(0, 0, 0);
+	border-color: rgb(255, 0, 0);
+}
+
+
+/*"""""""" (MAIN) Parent items""""""""*/	
+#qm0 .qmparent {	
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: 95%;
+	cursor:  pointer;
+}
+
+
+/*"""""""" (MAIN) Active State""""""""*/	
+body #qm0 .qmactive, body #qm0 .qmactive:hover {	
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	border-color: rgb(255, 0, 0);
+}
+
+
+/*"""""""" (SUB) Container""""""""*/	
+#qm0 div, #qm0 ul {	
+	padding: 10px 5px;
+	background-color: rgb(238, 238, 238);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(255, 0, 0);
+	min-width: calc(100% - 12px);
+	text-align: left;
+}
+
+
+/*"""""""" (SUB) Items""""""""*/	
+#qm0 div a, #qm0 ul a {	
+	padding: 3px 3px 3px 5px;
+	background-color: transparent;
+	color: rgb(0, 0, 0);
+	font-size: 12px;
+	font-weight: normal;
+	border-width: 0px;
+	border-style: none;
+	border-color: rgb(0, 0, 0);
+}
+
+
+/*"""""""" (SUB) Hover State""""""""*/	
+#qm0 div a:hover, #qm0 ul a:hover {	
+/*	background-color: rgb(102, 102, 102);
+	color: rgb(255, 255, 255);*/
+	text-decoration: underline;
+}
+
+
+/*"""""""" (SUB) Parent items""""""""*/	
+#qm0 div .qmparent {	
+	background-image: url("images/arrow_right.gif");
+}
+
+
+/*"""""""" (SUB) Active State""""""""*/	
+body #qm0 div .qmactive, body #qm0 div .qmactive:hover {	
+	background-color: rgb(102, 102, 102);
+	color: rgb(255, 255, 255);
+}
+
+.qmf {
+	visibility: visible !important;
+}
+
+.qmf {
+	visibility: hidden !important;
+}
+
+.clear {
+	width: 1px;
+	height: 20px;
+}
+
+#menu {
+	text-align: center;
+}
+
+/*!!!!!!!!!!! END QuickMenu Styles !!!!!!!!!!!*/
+
+#content {
+	text-align: center;
+}
+
+#content > div:not(.clear) {
+	display: inline-block;
+	text-align: left;
+}
+
+thead {
+	text-align: center;
+}
+
+textarea {
+	min-width: calc(100% - 14px);
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#transactie_input {
+	width: 25px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#transactie_input input {
+	width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+table {
+	table-layout: auto;
+}
+
+.data tbody tr td:first-child, .data tbody tr td:nth-child(2),.data tbody tr td:nth-child(4) {
+	text-align: center;
+}
+
+.data tbody tr td:nth-child(5), .data tbody tr td:nth-child(6) {
+	text-align: right;
+}
+
+.data tbody tr td:nth-child(3) {
+	max-width: 790px;
+}
+
+.data tbody tr td:nth-child(2) {
+	min-width: 100px;
+}
+
+.data tbody tr td p {
+	margin: 0;
+	margin-right: 5px;
+}
+
+.money {
+	width: 60px;
+}
+
+#opmerking {
+	min-width: 350px;
+}
+
+#submitbuttonsoptions {
+	height: 25px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 87px;
+	margin-left: 10px;
+}
+
+#submitbuttonsoptions input[type='submit'] {
+	width: 100%;
+}
+
+th {
+	border: 1px solid grey;
+	background: grey;
+	color: white;
+}

@@ -1,0 +1,5 @@
+# AuthUserFile Z:/wamp/www/.htpasswd
+AuthUserFile /home/praes/public_html/.htpasswd
+AuthName "Config"
+AuthType Basic
+require valid-user

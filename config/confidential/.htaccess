@@ -1,0 +1,4 @@
+AuthUserFile /home/praes/public_html/.htpasswrd
+AuthName "Confidential"
+AuthType Basic
+require valid-user

@@ -1,0 +1,8 @@
+[10-Jan-2015 11:07:56 UTC] PHP Warning:  require_once(../core/classes/Finance.php): failed to open stream: No such file or directory in /home/praes/public_html/finances/core/init.php on line 11
+[10-Jan-2015 11:07:56 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/classes/Finance.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/praes/public_html/finances/core/init.php on line 11
+[10-Jan-2015 11:08:36 UTC] PHP Warning:  require_once(../core/classes/Finance.php): failed to open stream: No such file or directory in /home/praes/public_html/finances/core/init.php on line 11
+[10-Jan-2015 11:08:36 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/classes/Finance.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/praes/public_html/finances/core/init.php on line 11
+[10-Jan-2015 11:13:02 UTC] PHP Warning:  require_once(../core/classes/Finance.php): failed to open stream: No such file or directory in /home/praes/public_html/finances/core/init.php on line 11
+[10-Jan-2015 11:13:02 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/classes/Finance.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/praes/public_html/finances/core/init.php on line 11
+[10-Jan-2015 11:16:28 UTC] PHP Warning:  require_once(../core/classes/Finance.php): failed to open stream: No such file or directory in /home/praes/public_html/finances/core/init.php on line 11
+[10-Jan-2015 11:16:28 UTC] PHP Fatal error:  require_once(): Failed opening required '../core/classes/Finance.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/praes/public_html/finances/core/init.php on line 11
